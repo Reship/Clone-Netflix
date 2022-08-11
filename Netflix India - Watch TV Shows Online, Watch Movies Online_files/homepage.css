@@ -1,0 +1,108 @@
+.body{
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+.root{
+  background-size: cover;
+  background-position: center;
+  background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),
+  url("../images/Best\ 43\ Netflix\ Backgrounds\ on\ HipWallpaper\ DC\ Netflix.jpg");
+  height: 100vh;
+
+}
+.navBar{
+    padding-top: 1%;
+    padding-left: 2vw;
+    padding-right: 4vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.imgLogo{
+  width: 167px;
+  height: 45px;
+  color: rgb(210, 10, 10);
+  }
+
+.btnSignin{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(210, 10, 10);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  }
+  
+  .mainContainer{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mainTitlesContainer{
+    width: 50%;
+    text-align: center;
+    color: white;
+  }
+  .mainTitle{
+    font-size: 3.2em;
+    margin-bottom: 14px;
+    line-height: 1.1;
+
+  }
+  .mainSubtitle{
+    font-size: 1.5em;
+    margin-bottom: 30px;
+  }
+  .mainParagraph{
+    font-size: 1.2em;
+
+  }
+  .mainEmailContainer{
+    width: 55%;
+    height: fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+  }  
+  .mainEmailInput{
+    outline: none;
+    border: none;
+    padding: 20px 10px;
+    font-size: 1em;
+    cursor: text;
+    border-radius: 5px;
+  }
+  .btnGetStarted{
+    cursor: pointer;
+    padding: 18px 32px;
+    background-color: rgb(210, 10, 10);
+    color: white;
+    height: fit-content;
+    font-size: 1.4em;
+    text-align: center;
+    border-radius: 5px;
+  }
+  .btnGetStarted:hover{
+    opacity: 0.7;
+  }
+  .btnSignin:hover{
+    opacity: 0.7;
+  }
+  .btnSignin a{
+    color: white;
+    background-color: rgb(210, 10, 10);
+    text-decoration: none;
+  }

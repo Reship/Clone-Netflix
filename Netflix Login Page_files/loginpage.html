@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="..//images/netflix-logo-circle-png.png"
+      type="images/x-icon"
+    />
+    <title>Netflix Login Page</title>
+    <link rel="stylesheet" href="loginpage.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="logo">
+          <a href="#">
+            <img src="../images/netflix-logo-0.png" alt="netflixlogo"
+          /></a>
+        </div>
+      </div>
+      <div class="loginBody">
+        <div class="loginBox">
+          <h2>Sign in</h2>
+          <form>
+            <div class="inputWrap">
+              <input
+                type="text"
+                placeholder="Email or phone number"
+                id="Username"
+              />
+            </div>
+
+            <div class="inputWrap">
+              <input type="text" placeholder="password" id="password" />
+            </div>
+
+            <div class="inputWrap">
+              <button onclick="login()" class="btnSignin">
+                <a href="../Netflix Profile Page/profilepage.html">Sign in</a>
+              </button>
+            </div>
+
+            <div class="support">
+              <div class="remember">
+                <span
+                  ><input
+                    type="checkbox"
+                    style="margin: 0; padding: 0; height: 13px"
+                /></span>
+                <span>Remember me</span>
+              </div>
+              <div class="needHelp">
+                <a href="#">Need help ?</a>
+              </div>
+            </div>
+            <div class="loginFooter">
+              <div class="signUp">
+                <p>New to Netflix? <a href="#">Sign up now.</a></p>
+              </div>
+              <div class="terms">
+                <p>
+                  This page is protected by Google reCAPTCHA to ensure you're
+                  not a bot. <a href="#">Learn more </a>
+                </p>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      // function login(){
+      //   var username = document.getElementById("username").value;
+      //   var password = document.getElementById("password").value;
+
+      //   if(username=="reshipandit@gmail.com" && password=="Reshipa@1")
+      //   {
+      //     location.assign(<button class="btnSignin"> <a href="../Netflix Profile Page/profilepage.html">Sign in</a></button>)
+
+      //   }else{
+      //     alert('Invalid username or password')
+      //   }
+      // }
+    </script>
+  </body>
+</html>

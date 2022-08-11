@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0035)http://127.0.0.1:5500/homepage.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewpoint" content="width=device-width, initial-scale=0.1">
+    <link rel="shortcut icon" href="http://127.0.0.1:5500/images/netflix-logo-circle-png.png" type="images/x-icon">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="./Netflix India - Watch TV Shows Online, Watch Movies Online_files/homepage.css">
+  </head>
+  <body>
+    <div class="root">
+      <nav class="navBar">
+      <img class="imgLogo" src="./Netflix India - Watch TV Shows Online, Watch Movies Online_files/netflix-logo-0.png" alt="netflix-logo-0">
+      <button onclick="" class="btnSignin">Sign in</button>
+      </nav>
+      <div class="mainContainer">
+        <div class="mainTitlesContainer">
+          <h1 class="mainTitle">Unlimited movies, TV shows and more.</h1>
+          <h2 class="mainSubtitle">Watch anywhere. Cancel anytime.</h2>
+          <p class="mainParagraph">Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div class="mainEmailContainer">
+          <input class="mainEmailInput" type="text" placeholder="Email address">
+          <div class="btnGetStarted">GET STARTED &gt;</div>
+        </div>
+      </div>
+    </div>
+    
+  <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
